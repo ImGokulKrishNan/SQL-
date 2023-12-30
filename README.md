@@ -183,3 +183,12 @@ from
 where
 groupby
 order by
+
+CTE
+[WITH  [, …]]  
+
+::=
+
+cte_name [(column_name [, …])]
+
+AS (cte_query) 
