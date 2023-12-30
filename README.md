@@ -185,10 +185,6 @@ groupby
 order by
 
 CTE
-[WITH  [, …]]  
-
-::=
-
-cte_name [(column_name [, …])]
-
-AS (cte_query) 
+WITH cte_name (column_names)   
+AS (query)     
+SELECT * FROM cte_name;    
